@@ -21,6 +21,7 @@ class Project(db.Model):
                 Skills List: {self.skills_list},
                 Github Link: {self.github})'''
 
+
 @application.route('/')
 def index():
     return render_template('index.html')
