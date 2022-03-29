@@ -8,9 +8,9 @@ def index():
     return render_template('index.html')
 
 
-# @application('/about')
-# def about():
-#     return render_template('about.html')
+@application('/about')
+def about():
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
